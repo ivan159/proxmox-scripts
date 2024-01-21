@@ -55,7 +55,7 @@ if [ "$EPS_OS_DISTRO" = "alpine" ]; then
 fi
 
 _utilDistro=$EPS_OS_DISTRO
-if [ "$EPS_OS_DISTRO" = "ubuntu" ]; then
+if [ "$EPS_OS_DISTRO" = "debian" ]; then
   _utilDistro="debian"
 fi
 
