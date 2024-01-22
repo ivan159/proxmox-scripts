@@ -16,7 +16,7 @@ pkg_update() {
 }
 
 pkg_upgrade() {
-   apt upgrade -y >$__OUTPUT
+   apt-get -y -qq upgrade >$__OUTPUT
 }
 
 pkg_add() {
